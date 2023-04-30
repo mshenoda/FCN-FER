@@ -311,6 +311,8 @@ class FacialExpressionsRecognizer:
 
 
     def evaluate(self, data_dir, device="cuda", show_class_dist=False):
+        if torch.cuda.is_available() == False:
+            device = "cpu"
 
         transformations = transforms.Compose([
             RGB2Gray(),
