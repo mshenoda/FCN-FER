@@ -16,18 +16,19 @@ The FCN architecture consists of convolutional layers that extract features from
 - torchsummary: for model summary in PyTorch
 - tensorboard: to log PyTorch model metrics for visualization 
 - scikit-learn: to provide various metric functions
+- facenet_pytorch: for face detections
 
 
 ### Install
 #### Using Nvidia GPU (Cuda 11.8)
 ```
-pip3 install tqdm matplotlib scikit-learn torch tensorboard torchsummary torchvision --extra-index-url https://download.pytorch.org/whl/cu118
+pip3 install tqdm matplotlib scikit-learn torch tensorboard torchsummary torchvision --extra-index-url https://download.pytorch.org/whl/cu118 facenet_pytorch
 ```
 
 ### Using CPU Only: 
 ### Although, you can use CPU Only, it would take longer time to train
 ```
-pip3 install tqdm matplotlib scikit-learn torch tensorboard torchsummary torchvision
+pip3 install tqdm matplotlib scikit-learn torch tensorboard torchsummary torchvision facenet_pytorch
 ```
 
 ## Directory Structure

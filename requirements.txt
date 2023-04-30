@@ -5,3 +5,4 @@ torchsummary
 tensorboard
 matplotlib
 scikit-learn
+facenet_pytorch
