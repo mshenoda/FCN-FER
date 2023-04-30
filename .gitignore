@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dependency directories
+venv/
+env/
+env.bak/
+env2/
+env3/
+.venv/
+.conda/
+conda_env/
+
+# Logs and checkpoints
+logs/
+checkpoints/
+
+# PyTorch-specific
+*.pth
+*.pt
+*.pkl
+model.bin
+
+# Distribution / packaging
+.Python
+*.pyo
+dist/
+build/
+
+# IDE-specific
+.idea/
+.vscode/
